@@ -1,0 +1,110 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+img {
+    max-width: 100%;
+}
+
+body {
+
+    background-color: #d7d7d7;
+    max-width: 900px;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    margin: 0 auto;
+}
+
+.bikcraft {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+    margin-top: 40px;
+}
+
+.menu {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    margin-bottom: 40px;
+    font-size: 15px;
+}
+
+.item_menu {
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 4px;
+}
+
+.apresentacao {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+}
+
+.info {
+    background-color: #e7e7e7;
+    display: flex;
+    flex-direction: column;
+    place-content: center;
+    text-align: right;
+    padding: 20px;
+    position: relative;
+}
+
+.info h1 {
+    margin-bottom: 0px;
+}
+
+.ver {
+    background-color: red;
+    place-self: end center;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: white;
+    border-radius: 4px;
+}
+
+.vantagens {
+    font-size: 50px;
+    display: grid;
+    text-align: right;
+    place-items: center end;
+    padding-right: 20px;
+    font-weight: bold;
+    color: #a7a7a7;
+}
+
+.vantagens_info {
+    background-color: #e7e7e7;
+    padding: 30px;
+}
+
+.item {
+    display: grid;
+    grid-template-columns: 30px 1fr;
+    justify-items: start;
+    align-items: center;
+    gap: 10px;
+}
+
+.titulo_info {
+    font-weight: bold;
+    font-size: 20px;
+    margin: 0;
+}
+
+.subtitulo_info {
+    grid-column: 2;
+    margin-bottom: 20px;
+}
+
+.row {
+    height: 4px;
+    background-color: red;
+    width: 80px;
+    position: absolute;
+    top: 40px;
+    right: -40px;
+}
